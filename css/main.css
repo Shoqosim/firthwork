@@ -1,0 +1,170 @@
+/* mulish-300 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v7-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v7-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v7-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v7-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v7-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v7-latin-300.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v7-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v7-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v7-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v7-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+
+
+body{
+    font-family: 'mulish';
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: dimgray;
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+
+.site-header .container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding-top:100px ;
+    padding-bottom:100px ;
+}
+
+.site-logo{
+    border-radius: 8px 0 8px 0;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item + .nav-item{
+    margin-left: 20px;
+}
+
+.nav-item:hover a{
+    color: brown;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:130px ;
+}
+
+.hero-headding{
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+}
+.hero-info{
+    width: 550px;
+}
+
+.hero-paragraph{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.hero-image{
+    border-radius: 15px 0 15px 0;
+}
+
+.hero-link{
+    color: black;
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+    border-radius: 40px;
+}
+
+.hero-link:hover{
+    background-color: dimgrey;
+}
+
+.members .container{
+    padding-bottom:100px ;
+}
+
+.members-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.members-img{
+    border-radius: 50%;
+}
+
+.members-item{
+   text-align: center; 
+}
+
+.site-footer{
+    background-color: #222831;
+}
+
+.site-footer .container{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    border-radius: 8px 0 8px 0;
+}
